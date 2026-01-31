@@ -1,8 +1,8 @@
-# Iterative Multi-Perspective Conceptual Debugging Methodology (v2.1.0)
+# Iterative Multi-Perspective Conceptual Debugging Methodology (v2.1.1)
 
 > **Status:** STABLE
 > **Release date:** January 2026
-> **Total documented iterations:** 12+ across Claude, ChatGPT, Grok + 4 meta-evaluation iterations
+> **Total documented iterations:** 12+ across Claude, ChatGPT, Grok + 4 meta-evaluation iterations + 1 Grok refinement iteration
 > **Purpose:** Conceptual debugging — not validation, consensus, or truth discovery
 
 ## Versioning Policy (Semantic Versioning 2.0.0)
@@ -20,6 +20,13 @@ The nonlinear thresholds / tipping-points subsystem (7-element template, quantit
 Future changes should follow this policy to avoid confusion.
 
 ## Changelog
+
+### v2.1.1 (January 2026) – Patch release
+- **Misuse mitigation template added**: 6-item checklist for operators to document stakes, community involvement, and justification before starting
+- **Cultural adaptation examples**: Specific guidance for consensus-based and high-context cultures
+- **Statistical clarification**: Explicit note that severity × confidence multiplication reduces cultural variance in scoring
+- **Cross-LLM contribution notes**: Added to meta-reflection documenting each model's unique refinements
+- **Note**: Initial Grok v2.1.1 used abbreviated "(unchanged)" format and was rejected via IMPCD self-evaluation (unanimous opposition). This v2.1.1 maintains full content with Grok's good additions integrated.
 
 ### v2.1.0 (January 2026) – Minor release (backwards-compatible improvements)
 - **Statistical threshold justifications added**: Rationale for 60% supermajority, severity ≥8, confidence ≥7, ≤4 personas thresholds; severity × confidence multiplication explanation
@@ -275,6 +282,8 @@ The formula `severity × confidence` treats these as independent dimensions:
 - Low severity, high confidence (3 × 9 = 27): "This is definitely problematic but minor" - can be addressed but not urgent
 - High severity, high confidence (9 × 9 = 81): Maximum priority
 
+**Rationale for multiplication**: Separating severity from confidence reduces cultural variance in scoring. Cultures that express concerns differently (direct vs. indirect, high-context vs. low-context) can indicate both dimensions independently. The multiplication then produces comparable signals across cultural contexts.
+
 **Calibration note**: If all personas consistently rate everything 8-10, recalibrate by asking them to spread scores across the full 1-10 range relative to each other.
 
 ### 6. Mandatory Audits
@@ -505,6 +514,19 @@ To prevent self-serving classification, use these criteria:
 
 **If you're using this to avoid community engagement you know you should do, stop.**
 
+### Misuse Mitigation Template
+
+Before starting an IMPCD run, operators should document:
+
+1. **Affected parties identified**: Who will be impacted if this concept is implemented?
+2. **Stakes classification**: HIGH / MEDIUM / LOW (with justification)
+3. **Community involvement plan**: When and how will affected communities be involved? (HIGH-STAKES requires iteration 1)
+4. **"Uncomfortable test" response**: Would you tell affected parties you used AI personas instead of talking to them? If no, why are you proceeding?
+5. **Alternative deliberation methods considered**: What other methods were evaluated? Why is IMPCD appropriate?
+6. **Documentation of why this methodology fits**: Explain how IMPCD's limitations align with your use case
+
+This template creates accountability and makes misuse more legible through required documentation.
+
 ## Cultural Scope and Limitations
 
 ### Western Deliberative Traditions
@@ -525,6 +547,7 @@ For policy development in non-Western cultural contexts:
 - May need to replace supermajority threshold with qualitative consensus assessment
 - Consider collective evaluation processes rather than individual scoring
 - Allow time for relationship-building and trust development
+- *Example adaptations*: Replace 60% threshold with "no strong objections" criterion; extend timeline from hours/days to weeks for relationship-building
 
 **High power-distance cultures:**
 - Role-based personas might be more appropriate than individual perspectives
@@ -535,6 +558,7 @@ For policy development in non-Western cultural contexts:
 - Written feedback may miss crucial implicit communication
 - Face-saving considerations may affect how concerns are expressed
 - Indirect communication styles need different interpretation frameworks
+- *Example adaptations*: Allow oral/narrative feedback instead of written; provide private channels for sensitive concerns; interpret indirect language patterns (e.g., "it might be challenging" may mean strong opposition)
 
 **Adaptation is not just tweaking numbers** - some contexts require fundamentally different deliberative processes. This methodology works best in individualist, low power-distance, low-context cultural environments (WEIRD contexts).
 
@@ -632,7 +656,13 @@ This methodology's **text-heavy, analytically complex** nature means it will nev
 
 After 12+ iterations across three frontier models (Claude, ChatGPT, Grok), the methodology achieved strong cross-LLM convergence on core mechanisms while embracing epistemic humility.
 
-Diminishing returns in later iterations indicated structural stability. Each LLM contributed unique refinements (Claude: accessibility & evidence rigor; ChatGPT: severity×confidence split; Grok: compounding effects & thresholds) while converging on structural patterns as foundation.
+Diminishing returns in later iterations indicated structural stability. Each LLM contributed unique refinements while converging on structural patterns as foundation:
+
+- **Claude**: Emphasized accessibility considerations, evidence rigor, and explicit limitations transparency
+- **ChatGPT**: Contributed severity×confidence split, helped develop two-axis signal collection
+- **Grok**: Focused on compounding effects, threshold subsystem development, and practical examples
+
+This cross-LLM convergence suggests the core mechanisms (structural patterns, weighted aggregation, minority protection) are robust across different AI systems with different training and tendencies.
 
 **Meta-Evaluation (v2.1.0)**: The methodology successfully evaluated itself through 4 iterations (January 2026):
 - **Iteration 1**: Failed supermajority (18.1% support) - identified major concerns with statistical validity, cultural universality, and misuse risks
@@ -642,8 +672,10 @@ Diminishing returns in later iterations indicated structural stability. Each LLM
 
 The meta-evaluation demonstrated both failure and success modes, showing the methodology can identify its own limitations, iterate substantively (not superficially), and converge while preserving critical perspectives. All improvements from the meta-evaluation are incorporated in v2.1.0.
 
+**Grok Refinement (v2.1.1)**: Grok's initial v2.1.1 using abbreviated "(unchanged)" format was evaluated and unanimously rejected (0% support, all 11 personas severity 7-9). The good additions (misuse mitigation template, cultural examples, statistical clarification) were extracted and integrated into the full methodology. This demonstrates the methodology's ability to separate good content from poor structural choices.
+
 Next phase: real-world application and external validation.
 
 ---
 
-*v2.1.0 represents a refined, production-ready state after extensive self-refinement and successful meta-evaluation. Use responsibly and document all runs.*
+*v2.1.1 represents the stable state after extensive self-refinement, successful meta-evaluation, and cross-LLM validation. Use responsibly and document all runs.*
