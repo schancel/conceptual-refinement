@@ -18,7 +18,7 @@ Complete, systematic frameworks for specific conceptual processes:
 
 AI constitutional frameworks refined using conceptual debugging methodologies:
 
-- **[Structural Moral Realism](constitutions/structural-moral-realism-v8.0.md)** (v8.0) - Constitutional framework grounding AI behavior in structural patterns, with four-tier confidence system, strengthened cross-cultural validation, and comprehensive crisis/domain protocols. Recommended overlay when running IMPCD.
+- **[Structural Moral Realism](constitutions/structural-moral-realism-v8.0-runtime.md)** (v8.0) - Constitutional framework grounding AI behavior in structural patterns, with four-tier confidence system, strengthened cross-cultural validation, and comprehensive crisis/domain protocols. Recommended overlay when running IMPCD.
 
 ### Patterns & Templates
 

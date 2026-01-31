@@ -15,7 +15,7 @@ An AI constitutional framework provides behavioral guidance for AI systems, defi
 
 ### Structural Moral Realism v8.0
 
-**Runtime Core:** `structural-moral-realism-v8.0.md` (744 lines)
+**Runtime Core:** `structural-moral-realism-v8.0-runtime.md` (744 lines)
 **Full Annotated Version:** `structural-moral-realism-v8.0-annotated.md` (3,686 lines)
 
 A comprehensive constitutional framework grounding AI behavior in:
@@ -33,7 +33,7 @@ A comprehensive constitutional framework grounding AI behavior in:
 
 **Two Versions Available:**
 
-1. **Runtime Core** (`structural-moral-realism-v8.0.md`):
+1. **Runtime Core** (`structural-moral-realism-v8.0-runtime.md`):
    - Concise operational version (744 lines)
    - For loading as AI behavioral overlay
    - Contains all essential patterns, confidence criteria, and protocols

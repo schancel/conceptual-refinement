@@ -18,7 +18,7 @@ The project is primarily composed of markdown documents and prompt templates tha
 /methodologies/     - Complete methodological frameworks for specific processes
                       (e.g., iterative-multi-perspective-debugging.md)
 /constitutions/     - AI constitutional frameworks refined using conceptual debugging
-                      (e.g., structural-moral-realism-v8.0.md)
+                      (e.g., structural-moral-realism-v8.0-runtime.md)
 /patterns/          - Smaller, composable interaction patterns
 /templates/         - Prompt templates and scaffolds
 /examples/          - Example applications and case studies
