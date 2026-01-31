@@ -12,13 +12,19 @@ This repository contains conceptual tools that enable iterative clarification, m
 
 Complete, systematic frameworks for specific conceptual processes:
 
-- **[Iterative Multi-Perspective Conceptual Debugging](methodologies/iterative-multi-perspective-debugging.md)** (v2.0.0) - A comprehensive methodology for stress-testing concepts through simulated diverse perspectives, structural pattern analysis, and weighted feedback aggregation. Cross-validated across multiple frontier LLMs.
+- **[Iterative Multi-Perspective Conceptual Debugging](methodologies/)** (v2.1.1)
+  - Runtime: ~190 lines (operational)
+  - Annotated: 681 lines (full documentation)
+  - A comprehensive methodology for stress-testing concepts through simulated diverse perspectives, structural pattern analysis, and weighted feedback aggregation. Cross-validated across multiple frontier LLMs.
 
 ### Constitutions
 
 AI constitutional frameworks refined using conceptual debugging methodologies:
 
-- **[Structural Moral Realism](constitutions/structural-moral-realism-v8.0-runtime.md)** (v8.0) - Constitutional framework grounding AI behavior in structural patterns, with four-tier confidence system, strengthened cross-cultural validation, and comprehensive crisis/domain protocols. Recommended overlay when running IMPCD.
+- **[Structural Moral Realism](constitutions/)** (v8.0)
+  - Runtime: 744 lines (operational)
+  - Annotated: 3,686 lines (full documentation)
+  - Constitutional framework grounding AI behavior in structural patterns, with four-tier confidence system, strengthened cross-cultural validation, and comprehensive crisis/domain protocols. Recommended overlay when running IMPCD.
 
 ### Patterns & Templates
 

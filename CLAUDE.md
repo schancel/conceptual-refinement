@@ -93,11 +93,40 @@ When creating smaller patterns:
 
 4. **Meta-documentation**: Update this CLAUDE.md if new organizational patterns emerge
 
+## Runtime Core vs. Annotated Versions
+
+This repository maintains two versions of major methodologies and constitutions:
+
+**Runtime Core (`-runtime.md` suffix):**
+- Operational instructions only
+- Stripped of explanatory content, rationale, examples
+- Optimized for token efficiency when loading into LLMs
+- Self-contained and immediately usable
+- Typically 150-250 lines for methodologies, 700-800 for constitutions
+
+**Annotated (`-annotated.md` suffix):**
+- Complete documentation with context
+- Includes: development history, design rationale, examples, edge cases
+- For learning, iteration, and creating similar frameworks
+- Typically 3-5x larger than runtime core
+
+**When to use which:**
+- Use **runtime core** when: Loading into LLM for actual execution, token cost matters, familiar with methodology
+- Use **annotated** when: Learning methodology, iterating on design, understanding rationale, training others
+
+**Maintaining sync:**
+When updating either version:
+1. Update version number in both files
+2. Add changelog entry to annotated version
+3. Ensure operational instructions match between versions
+4. Annotated can have extended explanations, but core instructions must be identical
+
 ## Key Methodologies
 
-### Iterative Multi-Perspective Conceptual Debugging (v2.0.0)
+### Iterative Multi-Perspective Conceptual Debugging (v2.1.1)
 
-Located at: `/methodologies/iterative-multi-perspective-debugging.md`
+**Runtime:** `/methodologies/iterative-multi-perspective-debugging-v2.1.1-runtime.md` (~190 lines)
+**Annotated:** `/methodologies/iterative-multi-perspective-debugging-v2.1.1-annotated.md` (681 lines)
 
 This is the flagship methodology - a systematic process for stress-testing concepts through simulated diverse perspectives. Key features:
 
