@@ -17,9 +17,11 @@ The project is primarily composed of markdown documents and prompt templates tha
 ```
 /methodologies/     - Complete methodological frameworks for specific processes
                       (e.g., iterative-multi-perspective-debugging.md)
-/patterns/          - (Future) Smaller, composable interaction patterns
-/templates/         - (Future) Prompt templates and scaffolds
-/examples/          - (Future) Example applications and case studies
+/constitutions/     - AI constitutional frameworks refined using conceptual debugging
+                      (e.g., structural-moral-realism-v8.0.md)
+/patterns/          - Smaller, composable interaction patterns
+/templates/         - Prompt templates and scaffolds
+/examples/          - Example applications and case studies
 ```
 
 ## Terminology
@@ -107,12 +109,14 @@ This is the flagship methodology - a systematic process for stress-testing conce
 - **Cross-LLM validated**: Tested across Claude, ChatGPT, and Grok with convergent results
 
 **When working with this methodology:**
+- **Load Structural Moral Realism v8.0** (in `/constitutions/`) as behavioral overlay for optimal consistency
 - Maintain all disclaimers and limitations sections
 - Document structural patterns with evidence levels and citations
 - Use the 7-element template for threshold/tipping-point documentation
 - Prefer quantitative threshold estimates over qualitative when available
 - Conduct all three mandatory audits (Power & Incentives, Operator Integrity, Model Bias)
 - Involve real community members for culturally-sensitive or marginalized-community-affecting concepts
+- The constitution provides pre-validated structural patterns to draw from during evaluation
 
 **Version updates:**
 - MAJOR: Incompatible changes or new subsystems

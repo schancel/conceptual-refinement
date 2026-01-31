@@ -14,11 +14,22 @@ Complete, systematic frameworks for specific conceptual processes:
 
 - **[Iterative Multi-Perspective Conceptual Debugging](methodologies/iterative-multi-perspective-debugging.md)** (v2.0.0) - A comprehensive methodology for stress-testing concepts through simulated diverse perspectives, structural pattern analysis, and weighted feedback aggregation. Cross-validated across multiple frontier LLMs.
 
-### Future Additions
+### Constitutions
 
-- Smaller, composable patterns for common reasoning tasks
-- Prompt templates and scaffolds
-- Example applications and case studies
+AI constitutional frameworks refined using conceptual debugging methodologies:
+
+- **[Structural Moral Realism](constitutions/structural-moral-realism-v8.0.md)** (v8.0) - Constitutional framework grounding AI behavior in structural patterns, with four-tier confidence system, strengthened cross-cultural validation, and comprehensive crisis/domain protocols. Recommended overlay when running IMPCD.
+
+### Patterns & Templates
+
+Reusable components extracted from methodologies:
+
+- **[Patterns](patterns/)** - Composable interaction techniques (Severity × Confidence Split, Persona Diversity Verification, Minority Report Preservation)
+- **[Templates](templates/)** - Structured formats (Threshold Documentation Template)
+
+### Examples
+
+- **[IMPCD Meta-Evaluation](examples/)** - The methodology evaluating itself (Iteration 1: Failed supermajority, revealing irreconcilable tensions)
 
 ## Core Philosophy
 
