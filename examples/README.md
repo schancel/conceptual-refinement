@@ -28,7 +28,28 @@ Each example should include:
 
 ## Existing Examples
 
-(Examples will be added here as methodologies are applied to real concepts)
+### IMPCD Meta-Evaluation (4 iterations, CONVERGED)
+
+**Files:**
+- [Iteration 1](impcd-meta-evaluation-iteration-1.md) - FAILED (18.1% support)
+- [Iteration 2](impcd-meta-evaluation-iteration-2.md) - PASSED (65.6% support)
+- [Iteration 3](impcd-meta-evaluation-iteration-3.md) - UNANIMOUS (100% support, not yet stable)
+- [Iteration 4](impcd-meta-evaluation-iteration-4.md) - CONVERGED (100% support, stable)
+
+**Summary:**
+The Iterative Multi-Perspective Conceptual Debugging methodology successfully evaluated itself, demonstrating both failure and success modes. Started with major concerns (statistical validity, cultural universality, misuse risks) and converged after addressing them through 4 iterations.
+
+**Key Outcomes:**
+- Total iterations to convergence: 4
+- Final support: 100% unanimous
+- All improvements incorporated into IMPCD v2.1.0
+- Demonstrated methodology can identify its own limitations and iterate substantively
+
+**What This Shows:**
+- The methodology works on itself (meta-evaluation)
+- Both failure mode (Iter 1) and success mode (Iter 4) documented
+- Substantive improvements, not superficial compliance
+- Convergence criteria all met (similarity >95%, support stable ±5%, no high-severity concerns)
 
 ## Types of Examples
 
