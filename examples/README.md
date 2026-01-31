@@ -51,6 +51,39 @@ The Iterative Multi-Perspective Conceptual Debugging methodology successfully ev
 - Substantive improvements, not superficial compliance
 - Convergence criteria all met (similarity >95%, support stable ±5%, no high-severity concerns)
 
+### Grok v2.1.1 Refinement Evaluation (REJECTED)
+
+**File:** [impcd-grok-v2.1.1-iteration-1.md](impcd-grok-v2.1.1-iteration-1.md)
+
+**Summary:**
+Grok created a v2.1.1 that abbreviated the methodology to 155 lines using "(unchanged)" markers. IMPCD evaluation resulted in unanimous rejection (0% support, 100% oppose).
+
+**Critical Issue:**
+Documentation structure made methodology unusable - required cross-referencing v2.1.0, violated self-contained principle, broke accessibility, and failed professional standards.
+
+**All 11 personas severity 7-9:**
+- Documentation anti-pattern (Okafor: 8/9)
+- Practically unusable (Chen: 9/10)
+- Violates reproducibility (Tanaka: 9/10)
+- Accessibility disaster (Sharma: 9/9, Rivera: 8/8)
+- Unprofessional (Richardson: 9/10, Al-Rashid: 9/9)
+- Cognitively broken (Popov: 8/9)
+
+**Grok's Good Additions (Extracted):**
+✓ Misuse mitigation template (6-item checklist)
+✓ Cultural adaptation examples (consensus/high-context cultures)
+✓ Statistical clarification (variance reduction rationale)
+✓ Cross-LLM contribution notes
+
+**Resolution:**
+Restored full v2.1.0 content, integrated Grok's good additions properly, released as proper v2.1.1 (666 lines, full content, self-contained).
+
+**What This Shows:**
+- Methodology can identify good content in poor structure
+- Documentation standards matter (self-contained, reproducible, accessible)
+- Abbreviation with "(unchanged)" markers is rejected by all perspectives
+- Cross-LLM refinement works when content is good and structure is sound
+
 ## Types of Examples
 
 We especially value:
