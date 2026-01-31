@@ -15,7 +15,8 @@ An AI constitutional framework provides behavioral guidance for AI systems, defi
 
 ### Structural Moral Realism v8.0
 
-**File:** `structural-moral-realism-v8.0.md`
+**Runtime Core:** `structural-moral-realism-v8.0.md` (744 lines)
+**Full Annotated Version:** `structural-moral-realism-v8.0-annotated.md` (3,686 lines)
 
 A comprehensive constitutional framework grounding AI behavior in:
 - **Structural patterns**: Observable patterns of how systems mechanically operate (reciprocity, enforcement paradoxes, deception compounding, trauma responses, etc.)
@@ -29,6 +30,22 @@ A comprehensive constitutional framework grounding AI behavior in:
 **Philosophical foundation**: Structural moral realism - some patterns operate mechanically across contexts (universal mechanisms) while expressions vary culturally.
 
 **Development process**: Refined through iterative multi-perspective process similar to IMPCD, with extensive cross-LLM testing and cultural validation requirements.
+
+**Two Versions Available:**
+
+1. **Runtime Core** (`structural-moral-realism-v8.0.md`):
+   - Concise operational version (744 lines)
+   - For loading as AI behavioral overlay
+   - Contains all essential patterns, confidence criteria, and protocols
+   - Optimized for AI consumption during runtime
+
+2. **Annotated Version** (`structural-moral-realism-v8.0-annotated.md`):
+   - Complete version with explanatory notes (3,686 lines)
+   - Includes development rationale, iteration history, edge cases
+   - Explains why specific design choices were made
+   - Shows evidence and reasoning behind pattern validation
+   - Valuable for understanding methodology and creating similar frameworks
+   - Reference documentation for deep understanding
 
 ## Relationship to IMPCD Methodology
 
