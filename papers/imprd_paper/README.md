@@ -1,14 +1,17 @@
 # IMPRD: Iterative Multi-Perspective Rhetorical Debugging
 
-**Academic paper for arXiv submission**
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18501089.svg)](https://doi.org/10.5281/zenodo.18501089)
+
+**Published on Zenodo with DOI**
 
 ## Status
 
-**READY FOR PUBLICATION** ✓
+**PUBLISHED** ✓
+- **DOI:** [10.5281/zenodo.18501089](https://doi.org/10.5281/zenodo.18501089)
+- **Zenodo:** [https://zenodo.org/records/18501089](https://zenodo.org/records/18501089)
 - IMPRD Score: 9.94/10 (converged at v9)
 - Perfect 10s: 7 out of 8 personas
-- Acceptance: 100% (all personas accept)
-- PDF builds successfully (16 pages)
+- 17 pages, CC BY 4.0 license
 
 ## Quick Build
 

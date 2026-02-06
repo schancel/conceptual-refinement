@@ -1,5 +1,7 @@
 # Conceptual Refinement Framework
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18501089.svg)](https://doi.org/10.5281/zenodo.18501089)
+
 **A systematic approach to methodology development through recursive self-application.**
 
 This repository contains methodologies for refining concepts (IMPCD) and optimizing content (IMPRD), developed through bootstrapping—recursively applying multi-perspective evaluation to validate and improve the methodologies themselves.
