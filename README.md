@@ -28,12 +28,13 @@ Complete, systematic frameworks for specific conceptual processes:
 - **Files:** Runtime (~190 lines) and annotated (681 lines) versions
 
 #### IMPRD: Iterative Multi-Perspective Rhetorical Debugging
-- **Location:** `papers/imprd_paper/` (v1.0, paper pending arXiv)
+- **Location:** `methodologies/` (v1.1.0 runtime, v1.0.0 annotated) | **Paper:** `papers/imprd_paper/`
 - **Purpose:** Audience persona evaluation for content optimization
 - **Development:** Derived from IMPCD (expert panels → audience personas)
 - **Validation:** n=28 applications across 3 orders of magnitude (100-100,000 words)
 - **Results:** Mean improvement 1.3 points (7.4 → 8.7), consistent convergence
 - **Innovation:** Random odd-number sampling prevents local minima + tiebreaking
+- **Status:** Academic paper ready for arXiv (9.94/10, 7 perfect 10s)
 
 **Key distinction:** IMPCD debugs *concepts* (logical coherence), IMPRD debugs *communication* (accessibility, engagement).
 

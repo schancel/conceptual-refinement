@@ -128,12 +128,13 @@ imprd_paper/
 ## Publication Checklist
 
 - [x] Paper written and reviewed
-- [x] IMPRD converged to 9.0/10
+- [x] IMPRD converged to 9.94/10
 - [x] LaTeX compiles successfully
-- [x] All references included
+- [x] All references verified (no hallucinations)
 - [x] Limitations comprehensively acknowledged
-- [x] Co-authors credited (Claude, Grok, ChatGPT)
-- [ ] GitHub repo cleaned up and public
+- [x] Co-authors credited (Claude, Grok, GPT-5.2)
+- [x] GitHub repo cleaned up and public
+- [x] Git history scrubbed of sensitive content
 - [ ] arXiv submission account ready
 - [ ] Final proofread
 
