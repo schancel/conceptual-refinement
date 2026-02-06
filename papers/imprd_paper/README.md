@@ -158,9 +158,11 @@ imprd_paper/
 
 ## Contact
 
-**Primary Author:** Shammah Chancellor <>
+**Primary Author:** Shammah Chancellor
 
 **Repository:** https://github.com/schancel/conceptual-refinement
+
+**Contact:** Open an issue on the GitHub repository
 
 ---
 
