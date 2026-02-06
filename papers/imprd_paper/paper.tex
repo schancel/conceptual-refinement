@@ -184,7 +184,7 @@ IMPRD follows a systematic refinement cycle (see Figure~\ref{fig:imprd-flow}):
     \item \textbf{Prioritize Changes}: Focus on high-impact improvements affecting multiple personas
     \item \textbf{Implement Refinements}: Make targeted changes to address identified issues
     \item \textbf{Re-evaluate}: All personas score revised version
-    \item \textbf{Convergence Check}: If average ≥ target and no persona < threshold, converge; else iterate
+    \item \textbf{Convergence Check}: If average $\geq$ target and no persona < threshold, converge; else iterate
 \end{enumerate}
 
 \begin{figure}[h]
@@ -238,7 +238,7 @@ IMPRD follows a systematic refinement cycle (see Figure~\ref{fig:imprd-flow}):
 IMPRD uses explicit numeric targets for convergence:
 
 \begin{itemize}
-    \item \textbf{Primary target}: Weighted average ≥ 9.0/10
+    \item \textbf{Primary target}: Weighted average $\geq$ 9.0/10
     \item \textbf{Floor constraint}: No individual persona < 7.5/10
     \item \textbf{Improvement threshold}: Diminishing returns (< 0.1 improvement per iteration)
     \item \textbf{Decline detection}: Score decreases on next iteration (signals over-optimization)
@@ -520,7 +520,7 @@ We acknowledge several important limitations that future work should address:
 
     \item \textbf{Convergence properties}: While IMPCD's recursive self-evaluation provides empirical evidence of convergence (methodology converged on itself), formal mathematical analysis of convergence guarantees and optimality conditions is lacking. Our decline detection criterion (stop when score decreases) addresses over-optimization empirically, but iteration might still degrade unmeasured quality dimensions not captured by persona evaluations.
 
-    \item \textbf{Model and domain dependence}: Our case study used Claude Sonnet 4.5; generalization to other LLMs (GPT-4, Gemini, Llama, etc.) is unvalidated. Different models may produce different persona evaluations or respond differently to refinement suggestions.
+    \item \textbf{Model diversity}: While IMPRD has been informally tested across multiple LLMs (Claude Sonnet 4.5, GPT-4, Grok 2) with successful results, systematic cross-model validation is lacking. Informal observations suggest different models catch different issues during evaluation (suggesting complementary strengths), but controlled studies comparing model-specific persona evaluations, refinement effectiveness, and convergence patterns are needed to establish robustness claims.
 
     \item \textbf{Selection bias}: The case study optimized content created by the first author, introducing potential confirmation bias in interpreting results. Independent validation on content from other creators is needed.
 \end{itemize}
@@ -616,7 +616,7 @@ Cognitive Foundations for Reasoning and Their Manifestation in LLMs.
 \textit{arXiv preprint arXiv:2511.16660}, 2025.
 
 \bibitem{llm-scaffolding-education}
-Kudina, O., Ballsun-Stanton, B., & Alfano, M.
+Kudina, O., Ballsun-Stanton, B., \& Alfano, M.
 The use of large language models as scaffolds for proleptic reasoning.
 \textit{Asian Journal of Philosophy}, 4(1):1-18, 2025.
 
