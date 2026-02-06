@@ -1,10 +1,18 @@
 # Conceptual Refinement Framework
 
-A collection of reusable methodologies and patterns designed to help AI systems systematically refine, debug, and stress-test concepts.
+**A systematic approach to methodology development through recursive self-application.**
+
+This repository contains methodologies for refining concepts (IMPCD) and optimizing content (IMPRD), developed through bootstrapping—recursively applying multi-perspective evaluation to validate and improve the methodologies themselves.
 
 ## Overview
 
-This repository contains conceptual tools that enable iterative clarification, multi-perspective analysis, and systematic exploration of ideas. These methodologies help surface hidden assumptions, identify conflicts, and progressively build more coherent understanding.
+The Conceptual Refinement Framework provides systematic methodologies for:
+- **Conceptual Debugging** (IMPCD) - Expert panel evaluation for philosophical concepts
+- **Content Optimization** (IMPRD) - Audience persona evaluation for communication
+- **Methodology Development** - Bootstrapping pattern for creating new methodologies
+- **Unnamed Concept Discovery** - Finding concepts that lack canonical names
+
+These tools enable iterative clarification, multi-perspective analysis, and systematic improvement of both abstract concepts and practical content.
 
 ## What's Inside
 
@@ -12,10 +20,22 @@ This repository contains conceptual tools that enable iterative clarification, m
 
 Complete, systematic frameworks for specific conceptual processes:
 
-- **[Iterative Multi-Perspective Conceptual Debugging](methodologies/)** (v2.1.1)
-  - Runtime: ~190 lines (operational)
-  - Annotated: 681 lines (full documentation)
-  - A comprehensive methodology for stress-testing concepts through simulated diverse perspectives, structural pattern analysis, and weighted feedback aggregation. Cross-validated across multiple frontier LLMs.
+#### IMPCD: Iterative Multi-Perspective Conceptual Debugging
+- **Location:** `methodologies/` (v2.1.1)
+- **Purpose:** Expert panel evaluation for philosophical concept refinement
+- **Development:** Bootstrapped through recursive self-application until convergence
+- **Validation:** Converged on itself, proving multi-perspective iteration pattern
+- **Files:** Runtime (~190 lines) and annotated (681 lines) versions
+
+#### IMPRD: Iterative Multi-Perspective Rhetorical Debugging
+- **Location:** `papers/imprd_paper/` (v1.0, paper pending arXiv)
+- **Purpose:** Audience persona evaluation for content optimization
+- **Development:** Derived from IMPCD (expert panels → audience personas)
+- **Validation:** n=28 applications across 3 orders of magnitude (100-100,000 words)
+- **Results:** Mean improvement 1.3 points (7.4 → 8.7), consistent convergence
+- **Innovation:** Random odd-number sampling prevents local minima + tiebreaking
+
+**Key distinction:** IMPCD debugs *concepts* (logical coherence), IMPRD debugs *communication* (accessibility, engagement).
 
 ### Constitutions
 

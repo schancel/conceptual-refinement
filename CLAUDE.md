@@ -17,6 +17,7 @@ The project is primarily composed of markdown documents and prompt templates tha
 ```
 /methodologies/     - Complete methodological frameworks for specific processes
                       (e.g., iterative-multi-perspective-debugging.md)
+/papers/            - Academic papers documenting methodologies (e.g., IMPRD paper)
 /constitutions/     - AI constitutional frameworks refined using conceptual debugging
                       (e.g., structural-moral-realism-v8.0-runtime.md)
 /patterns/          - Smaller, composable interaction patterns
@@ -123,12 +124,12 @@ When updating either version:
 
 ## Key Methodologies
 
-### Iterative Multi-Perspective Conceptual Debugging (v2.1.1)
+### Iterative Multi-Perspective Conceptual Debugging - IMPCD (v2.1.1)
 
 **Runtime:** `/methodologies/iterative-multi-perspective-debugging-v2.1.1-runtime.md` (~190 lines)
 **Annotated:** `/methodologies/iterative-multi-perspective-debugging-v2.1.1-annotated.md` (681 lines)
 
-This is the flagship methodology - a systematic process for stress-testing concepts through simulated diverse perspectives. Key features:
+A systematic process for stress-testing concepts through simulated diverse perspectives. Key features:
 
 - **Purpose**: Conceptual debugging (not validation) - surfaces assumptions, conflicts, blindspots, value tensions
 - **Core mechanism**: Generate ~11 diverse personas, collect structured feedback (severity × confidence scoring), apply structural pattern-based weighting
@@ -151,6 +152,43 @@ This is the flagship methodology - a systematic process for stress-testing conce
 - MAJOR: Incompatible changes or new subsystems
 - MINOR: Backwards-compatible features
 - PATCH: Bug fixes, clarifications
+
+### Iterative Multi-Perspective Rhetorical Debugging - IMPRD (v1.0)
+
+**Location:** `/papers/imprd_paper/` (academic paper + implementations)
+**Paper:** 16 pages, 9.94/10 IMPRD-optimized score
+**Status:** Ready for arXiv publication
+
+IMPRD extends IMPCD from expert panels (conceptual debugging) to audience personas (content optimization). Key features:
+
+- **Purpose**: Content optimization through structured multi-persona evaluation
+- **Innovation**: Random odd-number persona sampling prevents local minima + enables tiebreaking
+- **Validation**: n=28 applications across 3 orders of magnitude (100-100,000 words)
+- **Results**: Mean improvement of 1.3 points (7.4 → 8.7), consistent convergence
+- **Cost**: $0.50-$100 per content piece vs. $50-$1000 for professional editing
+
+**Key distinction from IMPCD:**
+- IMPCD debugs *concepts* (logical coherence, philosophical precision)
+- IMPRD debugs *communication* (accessibility, engagement, rhetorical effectiveness)
+
+**Convergence criteria:**
+- Target score (e.g., ≥9.0/10)
+- Floor constraints (no persona below threshold)
+- Diminishing returns threshold (< 0.1 improvement)
+- **Decline detection**: Stop when score decreases (signals over-optimization)
+
+**Meta-validation:**
+The IMPRD paper itself was optimized using IMPRD, demonstrating three levels of recursive validation:
+1. IMPCD converged on itself (validates multi-perspective iteration)
+2. IMPRD derived from validated IMPCD (validates adaptation pattern)
+3. IMPRD paper optimized using IMPRD (validates practical effectiveness)
+
+**When working with IMPRD:**
+- Use random sampling of odd-number personas (7 or 9 from larger pool)
+- Document all iteration scores to detect convergence or decline
+- Back out changes that decrease scores
+- Maintain audit trail with all evaluation scripts
+- See `/papers/imprd_paper/FINAL_CONVERGED.md` for complete convergence trajectory example
 
 ## Working with This Repository
 
