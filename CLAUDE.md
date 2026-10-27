@@ -96,7 +96,9 @@ When creating smaller patterns:
 
 ## Runtime Core vs. Annotated Versions
 
-This repository maintains two versions of major methodologies and constitutions:
+Some methodologies and constitutions have paired runtime and annotated editions.
+IMPCD v3 is a single self-contained runtime with rationale and changelog; do not
+create a second edition just to satisfy the older paired-file convention.
 
 **Runtime Core (`-runtime.md` suffix):**
 - Operational instructions only
@@ -124,34 +126,27 @@ When updating either version:
 
 ## Key Methodologies
 
-### Iterative Multi-Perspective Conceptual Debugging - IMPCD (v2.1.1)
+### Iterative Multi-Perspective Conceptual Debugging - IMPCD (v3.0.0)
 
-**Runtime:** `/methodologies/iterative-multi-perspective-debugging-v2.1.1-runtime.md` (~190 lines)
-**Annotated:** `/methodologies/iterative-multi-perspective-debugging-v2.1.1-annotated.md` (681 lines)
+**Authoritative runtime:** [v3.0.0](methodologies/iterative-multi-perspective-debugging-v3.0.0-runtime.md)
+**Migration:** [v2 → v3](methodologies/IMPCD-v3-MIGRATION.md)
 
-A systematic process for stress-testing concepts through simulated diverse perspectives. Key features:
+Use the domain-neutral v3 loop for new conceptual reviews:
 
-- **Purpose**: Conceptual debugging (not validation) - surfaces assumptions, conflicts, blindspots, value tensions
-- **Core mechanism**: Generate ~11 diverse personas, collect structured feedback (severity × confidence scoring), apply structural pattern-based weighting
-- **Versioning**: Follows Semantic Versioning 2.0.0 (MAJOR.MINOR.PATCH)
-- **Evidence tiers**: Provisional / Validated / Highly Validated with corresponding premium ranges
-- **Git tracking**: Each iteration must be committed with full audit trail
-- **Cross-LLM validated**: Tested across Claude, ChatGPT, and Grok with convergent results
+- Preserve author-owned intent and completion criteria. Propose additions for the author to accept.
+- Hold the concept in an atomic claim ledger; regenerate readable output from it.
+- Include anchor, adversary, minimalist, and two to five domain perspectives.
+- Produce two independent revisions and apply only their substantive consensus.
+- Record disagreement, tolerance, scope, decisions, locks, and disputed changes.
+- Rank counterexamples above arguments above preferences. Preserve unresolved severity ≥8 findings.
+- Report convergence, oscillation, growth guard, or iteration cap as the stop reason.
+- Treat domain packs and constitutional material as optional. Packs cannot change the core loop.
 
-**When working with this methodology:**
-- **Load Structural Moral Realism v8.0** (in `/constitutions/`) as behavioral overlay for optimal consistency
-- Maintain all disclaimers and limitations sections
-- Document structural patterns with evidence levels and citations
-- Use the 7-element template for threshold/tipping-point documentation
-- Prefer quantitative threshold estimates over qualitative when available
-- Conduct all three mandatory audits (Power & Incentives, Operator Integrity, Model Bias)
-- Involve real community members for culturally-sensitive or marginalized-community-affecting concepts
-- The constitution provides pre-validated structural patterns to draw from during evaluation
-
-**Version updates:**
-- MAJOR: Incompatible changes or new subsystems
-- MINOR: Backwards-compatible features
-- PATCH: Bug fixes, clarifications
+The v2.1.1 runtime, annotated edition, and evaluations are historical. Do not
+carry their weighted supermajority, fixed eleven-persona panel, mandatory audits,
+pattern premiums, or semantic-similarity convergence into v3. Self-convergence
+and persona agreement are not evidence of correctness. Do not claim independent
+or cross-model testing that did not occur.
 
 ### Iterative Multi-Perspective Rhetorical Debugging - IMPRD (v1.0)
 
@@ -177,11 +172,14 @@ IMPRD extends IMPCD from expert panels (conceptual debugging) to audience person
 - Diminishing returns threshold (< 0.1 improvement)
 - **Decline detection**: Stop when score decreases (signals over-optimization)
 
-**Meta-validation:**
-The IMPRD paper itself was optimized using IMPRD, demonstrating three levels of recursive validation:
-1. IMPCD converged on itself (validates multi-perspective iteration)
-2. IMPRD derived from validated IMPCD (validates adaptation pattern)
-3. IMPRD paper optimized using IMPRD (validates practical effectiveness)
+**Development history:**
+The IMPRD paper itself was optimized using IMPRD:
+
+1. Historical IMPCD v2 runs reported self-convergence under v2 criteria
+2. IMPRD was derived from IMPCD v2
+3. The IMPRD paper was optimized using IMPRD
+
+These are development records, not independent validation of correctness or of IMPCD v3.
 
 **When working with IMPRD:**
 - Use random sampling of odd-number personas (7 or 9 from larger pool)

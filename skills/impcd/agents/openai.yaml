@@ -1,0 +1,7 @@
+interface:
+  display_name: "IMPCD Conceptual Debugging"
+  short_description: "Refine concepts with intent and evidence"
+  default_prompt: "Use $impcd to refine this concept with the v3 claim-ledger loop and report its stop rule."
+
+policy:
+  allow_implicit_invocation: true

@@ -9,7 +9,7 @@ This repository contains methodologies for refining concepts (IMPCD) and optimiz
 ## Overview
 
 The Conceptual Refinement Framework provides systematic methodologies for:
-- **Conceptual Debugging** (IMPCD) - Expert panel evaluation for philosophical concepts
+- **Conceptual Debugging** (IMPCD) - Intent-anchored refinement of concepts across domains
 - **Content Optimization** (IMPRD) - Audience persona evaluation for communication
 - **Methodology Development** - Bootstrapping pattern for creating new methodologies
 - **Unnamed Concept Discovery** - Finding concepts that lack canonical names
@@ -23,11 +23,13 @@ These tools enable iterative clarification, multi-perspective analysis, and syst
 Complete, systematic frameworks for specific conceptual processes:
 
 #### IMPCD: Iterative Multi-Perspective Conceptual Debugging
-- **Location:** `methodologies/` (v2.1.1)
-- **Purpose:** Expert panel evaluation for philosophical concept refinement
-- **Development:** Bootstrapped through recursive self-application until convergence
-- **Validation:** Converged on itself, proving multi-perspective iteration pattern
-- **Files:** Runtime (~190 lines) and annotated (681 lines) versions
+
+- **Current version:** [IMPCD v3.0.0 runtime](methodologies/iterative-multi-perspective-debugging-v3.0.0-runtime.md)
+- **Purpose:** Refine designs, theories, arguments, products, protocols, and policies against the author's intent
+- **Mechanism:** Atomic claim ledger, independent revisions, consensus damping, step-size control, and claim locking
+- **Evidence:** Counterexamples outweigh arguments; arguments outweigh preferences
+- **Limits:** Stability under the loop is not proof of correctness. External tests, data, and review determine evidential strength.
+- **Migration:** [v2 → v3 guide](methodologies/IMPCD-v3-MIGRATION.md); v2 runtimes and evaluations are historical
 
 #### IMPRD: Iterative Multi-Perspective Rhetorical Debugging
 - **Location:** `methodologies/` (v1.1.0 runtime, v1.0.0 annotated) | **Paper:** `papers/imprd_paper/`
@@ -47,7 +49,7 @@ AI constitutional frameworks refined using conceptual debugging methodologies:
 - **[Structural Moral Realism](constitutions/)** (v8.0)
   - Runtime: 744 lines (operational)
   - Annotated: 3,686 lines (full documentation)
-  - Constitutional framework grounding AI behavior in structural patterns, with four-tier confidence system, strengthened cross-cultural validation, and comprehensive crisis/domain protocols. Recommended overlay when running IMPCD.
+  - Constitutional framework grounding AI behavior in structural patterns, with four-tier confidence system, strengthened cross-cultural validation, and comprehensive crisis/domain protocols. Optional domain material; IMPCD v3 does not require a constitutional overlay.
 
 ### Patterns & Templates
 
@@ -58,7 +60,7 @@ Reusable components extracted from methodologies:
 
 ### Examples
 
-- **[IMPCD Meta-Evaluation](examples/)** - The methodology evaluating itself (Iteration 1: Failed supermajority, revealing irreconcilable tensions)
+- **[Historical IMPCD Meta-Evaluation](examples/)** - v2 self-evaluation records; these do not validate v3
 
 ## Core Philosophy
 

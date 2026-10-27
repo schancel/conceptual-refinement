@@ -1,6 +1,10 @@
 # Examples
 
-This directory contains real applications and case studies demonstrating the methodologies and patterns in practice.
+This directory contains applications and case studies of the methodologies and patterns.
+
+The existing IMPCD examples use v2 rules and are historical. Their voting and
+similarity results do not demonstrate v3 convergence or correctness. For new
+runs, use the [v3 runtime](../methodologies/iterative-multi-perspective-debugging-v3.0.0-runtime.md).
 
 ## What is an Example?
 

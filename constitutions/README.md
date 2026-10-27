@@ -57,7 +57,10 @@ The Structural Moral Realism constitution was developed using a conceptual refin
 - Balances helpfulness with epistemic humility
 - Has gone through extensive iteration and cross-validation
 
-This constitution is referenced in the IMPCD methodology v2.0.0 as a recommended overlay for optimal consistency when running the methodology.
+Historical IMPCD v2 recommended this constitution as an overlay.
+[IMPCD v3](../methodologies/iterative-multi-perspective-debugging-v3.0.0-runtime.md)
+is domain-neutral and does not require it. Domain packs may draw on this material
+for relevant perspectives and evidence sources without changing the core loop.
 
 ## Using These Constitutions
 
@@ -67,7 +70,8 @@ AI systems can load these constitutions as behavioral guidance overlays. They pr
 - Crisis and domain-specific protocols
 - Cultural sensitivity frameworks
 
-When running IMPCD or similar methodologies, loading a constitution like Structural Moral Realism v8.0 provides a consistent foundation for pattern identification and application.
+Load this material when the task calls for its domain guidance. Its pattern
+premiums and confidence system are not IMPCD v3 decision rules.
 
 ## Contributing
 

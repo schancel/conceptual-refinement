@@ -1,5 +1,7 @@
 # Iterative Multi-Perspective Conceptual Debugging Methodology (v2.1.1)
 
+> **Historical version, superseded by [IMPCD v3.0.0](iterative-multi-perspective-debugging-v3.0.0-runtime.md).** Retained for reproducing v2 runs; use v3 for new reviews.
+
 > **Status:** STABLE
 > **Release date:** January 2026
 > **Total documented iterations:** 12+ across Claude, ChatGPT, Grok + 4 meta-evaluation iterations + 1 Grok refinement iteration

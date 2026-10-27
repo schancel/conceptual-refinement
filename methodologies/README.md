@@ -1,35 +1,43 @@
 # Methodologies
 
-This directory contains complete, systematic frameworks for specific conceptual processes.
+## Current IMPCD: v3.0.0
 
-## Methodology Versions
+Read the [v3.0.0 runtime](iterative-multi-perspective-debugging-v3.0.0-runtime.md)
+for the complete authoritative method. It is the supplied v3 document, including
+its rationale and changelog; there is no separate v3 annotated edition.
 
-Each methodology in this directory has two versions:
+IMPCD now refines concepts across domains using author-owned intent and completion
+criteria, an atomic claim ledger, independent revisions, consensus damping,
+step-size control, and claim locking. Counterexamples outweigh arguments, which
+outweigh preferences. Every run reports its stop rule and preserves unresolved
+findings of severity 8 or more.
 
-- **Runtime Core** (`-runtime.md`): Concise operational instructions (~150-200 lines)
-- **Annotated** (`-annotated.md`): Full documentation with context (~600-800 lines)
+See the [migration guide](IMPCD-v3-MIGRATION.md) for changes from v2 and execution
+settings that must be made explicit. The [assistant skill](../skills/impcd/SKILL.md)
+routes conceptual reviews to v3.
 
-See the main [CLAUDE.md](/CLAUDE.md) for guidance on when to use each version.
+## Historical IMPCD: v2.1.1
 
-## Available Methodologies
+- [Runtime](iterative-multi-perspective-debugging-v2.1.1-runtime.md)
+- [Annotated](iterative-multi-perspective-debugging-v2.1.1-annotated.md)
 
-### Iterative Multi-Perspective Conceptual Debugging (IMPCD) v2.1.1
+Retained for reproducing historical runs. Their weighted voting, fixed persona
+count, pattern premiums, and similarity criteria are superseded by v3.
+Historical self-convergence and cross-model agreement do not prove correctness
+or validate the v3 loop.
 
-**Runtime:** `iterative-multi-perspective-debugging-v2.1.1-runtime.md`
-**Annotated:** `iterative-multi-perspective-debugging-v2.1.1-annotated.md`
+## IMPRD
 
-A systematic process for stress-testing concepts through simulated diverse perspectives, structural pattern analysis, and weighted feedback aggregation.
+- [v1.1.0 runtime](iterative-multi-perspective-rhetorical-debugging-v1.1.0-runtime.md)
+- [v1.0.0 annotated](iterative-multi-perspective-rhetorical-debugging-v1.0.0-annotated.md)
+- [Overview](IMPRD-README.md)
 
-**Key features:**
-- Generate ~11 diverse personas spanning conflicting viewpoints
-- Collect structured feedback (severity × confidence scoring)
-- Apply structural pattern-based weighting
-- Preserve high-severity minority concerns
-- Git-tracked audit trail
-- Cross-validated across Claude, ChatGPT, and Grok
+IMPRD optimizes communication and retains its own process. Its derivation from
+IMPCD v2 is historical; adopting IMPCD v3 does not change IMPRD's rules.
 
-**Purpose:** Conceptual debugging (not validation) — surfaces assumptions, conflicts, blindspots, and value tensions.
+## Document formats
 
-**Status:** STABLE (January 2026)
-
-**See also:** [Structural Moral Realism constitution](../constitutions/) — recommended behavioral overlay for optimal consistency when running IMPCD.
+Runtime files contain operational guidance. Annotated editions, where present,
+provide additional context. Use the current version for new work; retain older
+versions and evaluation records for provenance. See [CLAUDE.md](../CLAUDE.md)
+for repository guidance.

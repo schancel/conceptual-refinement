@@ -22,6 +22,14 @@ Each pattern should include:
 7. **Pitfalls**: Common mistakes to avoid
 8. **Related Patterns**: Complementary or alternative patterns
 
+## Relationship to IMPCD v3
+
+These patterns remain standalone resources, including rules inherited from v2.
+They are not mandatory v3 steps. In particular, v3 preserves every unresolved
+severity ≥8 finding without a minority-size or confidence cutoff, and does not
+use severity × confidence weights or a fixed persona count. Optional domain
+material must not override the [v3 loop](../methodologies/iterative-multi-perspective-debugging-v3.0.0-runtime.md).
+
 ## Existing Patterns
 
 ### Core Feedback Collection Patterns

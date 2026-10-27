@@ -1,5 +1,7 @@
 # Iterative Multi-Perspective Conceptual Debugging (v2.1.1) — Runtime Core
 
+> **Historical version, superseded by [IMPCD v3.0.0](iterative-multi-perspective-debugging-v3.0.0-runtime.md).** Retained for reproducing v2 runs; use v3 for new reviews.
+
 > **Purpose:** Conceptual debugging — surfaces assumptions, conflicts, blindspots, value tensions
 > **Status:** STABLE (January 2026)
 > **Cross-LLM validated:** Claude, ChatGPT, Grok
